@@ -49,6 +49,10 @@ dev_dependencies:
   # Step 1: Install Icon App
   flutter_launcher_icons: "^0.14.4"
 
+  # Step 2: Install loading app screen
+  flutter_spinkit: ^5.2.2
+  # ใช้คำสั่ง flutter pub get เพื่อติดตั้ง package
+
 # Step 1: Install Icon App
 Step 1: Install Icon App
 flutter_launcher_icons:
@@ -76,10 +80,13 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-
+  # assets:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
+  assets:
+    - ./android/assets/image/ # show all
+    - ./android/assets/image/app_screen_2.jpeg # show specific
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
 
