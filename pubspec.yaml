@@ -72,10 +72,10 @@ flutter_launcher_icons:
   android: "launcher_icon"
   ios: true 
   remove_alpha.ios: true # icon โปร่งใส
-  image_path: "./android/assets/icon/logo_huh.jpg"
+  image_path: "./android/assets/icon/icon_app.jpeg"
   min_skd_android: 28 # min is 16, defualt is 21
   adaptive_icon_background: "#FFFFFF" # สีพื้นหลัง icon บน Android
-  adaptive_icon_foreground: "./android/assets/icon/logo_huh.jpg" # ให้ icon เป็นรูปภาพ
+  adaptive_icon_foreground: "./android/assets/icon/icon_app.jpeg" # ให้ icon เป็นรูปภาพ
   
   # หลังจากนำภาพเข้า Project ใช้คำสั่ง dart run flutter_launcher_icons
 
@@ -99,7 +99,7 @@ flutter:
 
   assets:
     - ./android/assets/image/ # show all
-    - ./android/assets/image/app_screen_2.jpeg # show specific
+    - ./android/assets/image/loadingScreen.jpeg # show specific
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
 
